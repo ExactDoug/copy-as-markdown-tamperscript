@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name         Copy Selection as GitHub Flavored Markdown (GFM)
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/ExactDoug/copy-as-markdown-tamperscript
 // @version      2.0
 // @description  Copies selected HTML content as GFM to the clipboard. Trigger via Alt+Shift+C, context menu, or optional floating button. Attempts to convert images to Base64.
 // @author       @Gemini
+// @homepageURL  https://github.com/ExactDoug/copy-as-markdown-tamperscript
+// @supportURL   https://github.com/ExactDoug/copy-as-markdown-tamperscript/issues
+// @downloadURL  https://raw.githubusercontent.com/ExactDoug/copy-as-markdown-tamperscript/main/Copy-Selection-as-GFM-Markdown.user.js
+// @updateURL    https://raw.githubusercontent.com/ExactDoug/copy-as-markdown-tamperscript/main/Copy-Selection-as-GFM-Markdown.user.js
 // @match        *://*/*
 // @require      https://unpkg.com/turndown/dist/turndown.js
 // @require      https://unpkg.com/turndown-plugin-gfm/dist/turndown-plugin-gfm.js
